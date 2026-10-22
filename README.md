@@ -128,7 +128,7 @@ Na Sprint 04, montamos um golden dataset com 20 perguntas e gabaritos para compa
 - [Relatório em Markdown](docs/Relatorio_Sprint04.md)
 - [Arquivo de entrega da Sprint 04](Entrega-Sprint04.txt)
 
-Para executar o notebook, importe o arquivo no Kaggle, habilite o acesso à internet e configure o Secret `GROQ_API_KEY`. Não publique sua chave no repositório.
+Para executar o notebook, importe o arquivo no Kaggle, habilite o acesso à internet e configure o Secret `GROQ_API_KEY`.
 
 ## Estrutura do projeto
 
