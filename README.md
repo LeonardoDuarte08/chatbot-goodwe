@@ -146,3 +146,14 @@ chatbot-goodwe/
         ├── comparacao_modelos_sprint3.csv
         ├── resumo_modelos_sprint3.csv
         └── testes_seguranca_sprint3.csv
+
+
+### Sprint 4 — Avaliação automática (entrega final)
+
+A Sprint 04 usa um golden dataset com 20 perguntas, avaliação via LLM as a Judge e comparação entre dois prompts no Kaggle. Foram feitas 40 avaliações, com notas médias de **9,65 (v1)** e **9,50 (v2)**.
+
+- [Notebook final do Kaggle](notebooks/Sprint04_GoodWe_Kaggle.ipynb)
+- [CSV final com as 40 avaliações](docs/resultados/avaliacoes_sprint04.csv)
+- [Relatório final em Markdown](docs/Relatorio_Sprint04.md)
+
+O relatório aprovado originalmente foi entregue em PDF. O Markdown disponibilizado no repositório reproduz seu conteúdo textual.
