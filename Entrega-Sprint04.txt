@@ -1,0 +1,13 @@
+Sprint 04 — Prompt and Artificial Intelligence
+Chatbot GoodWe — EV Challenge 2026
+
+Integrantes:
+Eduardo Oliveira — RM 570374
+Timoteo de Andrade Romano — RM 569711
+Bruno Albuquerque Aguiar — RM 569035
+João Pedro Conturbia — RM 569788
+Enzo De Nadai — RM 569985
+Leonardo Duarte — RM 569029
+
+Repositório GitHub:
+https://github.com/LeonardoDuarte08/chatbot-goodwe
