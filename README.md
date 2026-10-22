@@ -118,42 +118,45 @@ Nos três cenários o agente manteve as instruções definidas e apresentou o co
 - Morador
 - Técnico
 
-## Estrutura do Projeto
+### Sprint 4
+
+Na Sprint 04, montamos um golden dataset com 20 perguntas e gabaritos para comparar duas versões do prompt do chatbot GoodWe. Usamos o Kaggle e a API Groq com LLM as a Judge. Foram feitas 40 avaliações, com médias de **9,65 para a v1** e **9,50 para a v2**. A v1 foi melhor no resultado geral, enquanto a v2 apresentou uma pequena vantagem nas perguntas de funcionalidade.
+
+- [Notebook final da Sprint 04](notebooks/Sprint%2004.ipynb)
+- [CSV com as 40 avaliações](docs/resultados/avaliacoes_sprint04.csv)
+- [Relatório final em PDF](docs/Relatorio%20Sprint04.pdf)
+- [Relatório em Markdown](docs/Relatorio_Sprint04.md)
+- [Arquivo de entrega da Sprint 04](Entrega-Sprint04.txt)
+
+Para executar o notebook, importe o arquivo no Kaggle, habilite o acesso à internet e configure o Secret `GROQ_API_KEY`. Não publique sua chave no repositório.
+
+## Estrutura do projeto
 
 ```text
 chatbot-goodwe/
-│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── entrega.txt
-│
+├── entrega-sprint01.txt
+├── Entrega-Sprint3.txt
+├── Entrega-Sprint04.txt
+├── context/
+│   └── goodwe_context.txt
 ├── src/
 │   ├── chatbot.py
 │   └── main.py
-│
 ├── notebooks/
-│   └── Sprint3_GoodWe_Agentes.ipynb
-│
-├── context/
-│   └── goodwe_context.txt
-│
+│   ├── Sprint3_GoodWe_Agentes.ipynb
+│   └── Sprint 04.ipynb
 └── docs/
+    ├── Relatorio_Sprint3_Prompt_and_Artificial_Intelligence.docx
+    ├── Relatorio Sprint04.pdf
+    ├── Relatorio_Sprint04.md
     ├── fluxograma.png
     ├── perguntas_teste.md
-    ├── Relatorio_Sprint3_Prompt_and_Artificial_Intelligence.docx
     └── resultados/
         ├── comparacao_modelos_sprint3.csv
         ├── resumo_modelos_sprint3.csv
-        └── testes_seguranca_sprint3.csv
-
-
-### Sprint 4 — Avaliação automática (entrega final)
-
-A Sprint 04 usa um golden dataset com 20 perguntas, avaliação via LLM as a Judge e comparação entre dois prompts no Kaggle. Foram feitas 40 avaliações, com notas médias de **9,65 (v1)** e **9,50 (v2)**.
-
-- [Notebook final do Kaggle](notebooks/Sprint04_GoodWe_Kaggle.ipynb)
-- [CSV final com as 40 avaliações](docs/resultados/avaliacoes_sprint04.csv)
-- [Relatório final em Markdown](docs/Relatorio_Sprint04.md)
-
-O relatório aprovado originalmente foi entregue em PDF. O Markdown disponibilizado no repositório reproduz seu conteúdo textual.
+        ├── testes_seguranca_sprint3.csv
+        └── avaliacoes_sprint04.csv
+```
