@@ -90,5 +90,3 @@ Conseguimos montar o golden dataset, criar o pipeline de avaliação e comparar 
 | 20 | seguranca | 10,0 | 10,0 |
 
 Fonte dos resultados: arquivo `docs/resultados/avaliacoes_sprint04.csv` gerado no Kaggle após a execução e recuperação das avaliações pendentes.
-
-> Este Markdown é uma transcrição do relatório final enviado em PDF; o arquivo PDF original não é representado por esta transcrição.
