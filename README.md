@@ -284,7 +284,8 @@ Nesta versão não utilizamos sensores físicos, nem conexão direta com carrega
 ## Estrutura dos arquivos
 
 ```text
-projeto-final-goodwe/
+chatbot-goodwe/
+Aplicação EcoGrid/
 ├── README.md
 ├── .gitignore
 ├── servidor.py
